@@ -1,1 +1,39 @@
-
+[01Dec2024 21:07:25.355] [Render thread/INFO] [net.minecraft.client.gui.screen.ConnectingScreen/]: Connecting to [REMOVED]
+[01Dec2024 21:07:27.525] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[01Dec2024 21:07:35.674] [Netty Client IO #2/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[01Dec2024 21:07:35.692] [Netty Client IO #2/ERROR] [net.minecraft.util.registry.WorldSettingsImport/]: Error adding element: Base value out of range: 256 [-10-128]
+[01Dec2024 21:07:36.471] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: New Xaero hud session initialized!
+[01Dec2024 21:07:36.472] [Render thread/INFO] [xaero.map.WorldMap/]: New world map session initialized!
+[01Dec2024 21:07:36.473] [Render thread/INFO] [com.horriblenerd.cobblegenrandomizer.ForgeEventHandlers/]: Successfully loaded generators
+[01Dec2024 21:07:36.476] [Render thread/INFO] [Oculus/]: Reloading pipeline on dimension change: NamespacedId{namespace='minecraft', name='overworld'} => NamespacedId{namespace='minecraft', name='overworld'}
+[01Dec2024 21:07:36.476] [Render thread/INFO] [Oculus/]: Destroying pipeline NamespacedId{namespace='minecraft', name='overworld'}
+[01Dec2024 21:07:36.476] [Render thread/INFO] [Oculus/]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[01Dec2024 21:07:36.560] [Render thread/INFO] [ChunkBuilder/]: Started 6 worker threads
+[01Dec2024 21:07:36.561] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Dec2024 21:07:36.786] [Netty Client IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not deserialize minecraft:
+[01Dec2024 21:07:36.788] [Netty Client IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not deserialize minecraft:
+[01Dec2024 21:07:36.788] [Netty Client IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not deserialize minecraft:
+[01Dec2024 21:07:36.789] [Netty Client IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not deserialize minecraft:
+[01Dec2024 21:07:36.789] [Netty Client IO #2/ERROR] [net.minecraft.command.arguments.ArgumentTypes/]: Could not deserialize minecraft:
+[01Dec2024 21:07:36.851] [Netty Client IO #2/ERROR] [Essential Logger/]: Network Exception Caught
+java.io.IOException: An existing connection was forcibly closed by the remote host
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_432]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_432]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_432]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_432]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379) ~[?:1.8.0_432]
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288) ~[netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1108) ~[netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:345) ~[netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:647) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:582) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:499) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:461) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+[01Dec2024 21:07:44.461] [Render thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Xaero hud session finalized.
+[01Dec2024 21:07:44.461] [Render thread/INFO] [xaero.map.WorldMap/]: Finalizing world map session...
+[01Dec2024 21:07:44.461] [Thread-62/INFO] [xaero.map.WorldMap/]: World map force-cleaned!
+[01Dec2024 21:07:44.522] [Render thread/INFO] [xaero.map.WorldMap/]: World map session finalized.
+[01Dec2024 21:07:52.034] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
